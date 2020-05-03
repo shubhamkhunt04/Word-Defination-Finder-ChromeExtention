@@ -1,0 +1,14 @@
+{
+  "name": "shubham",
+  "version": "1.0.0",
+  "description": "\"This is my very first cool extention\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shubham khunt",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "0.0.106"
+  }
+}

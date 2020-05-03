@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Word Definition Finder",
+    "version": "1.0.0",
+    "description": "Find any word Definition",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": {
+        "16": "./icons/icon16.png",
+        "32": "./icons/icon32.png",
+        "48": "./icons/icon48.png",
+        "128": "./icons/icon128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Find a Definition !!"
+    }
+}
